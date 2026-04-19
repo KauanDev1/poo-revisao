@@ -4,8 +4,6 @@ class Pessoa:
         self.idade = int(idade)
         self.dinheiro = int(dinheiro)
         
-
-
     def niver(self):
         self.idade += 1
  
@@ -14,6 +12,9 @@ class Pessoa:
 
     def dinheiroDepositar(self, valor):
         self.dinheiro = self.dinheiro + valor
+
+    def tchau(self):
+        print(f"{self.nome}: Adeus")
 
     
         
