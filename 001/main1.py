@@ -10,7 +10,7 @@ class Pessoa:
         self.idade += 1
  
     def apresentar(self):
-        print(f"Olá, meu nome é {self.nome} e tenho {self.idade} anos e tenho {self.dinheiro}.")
+        print(f"Olá, meu nome é {self.nome} e tenho {self.idade} anos e tenho {self.dinheiro}..")
 
     def dinheiroDepositar(self, valor):
         self.dinheiro = self.dinheiro + valor
